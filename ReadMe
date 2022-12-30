@@ -1,0 +1,55 @@
+============================================================
+=====================Hospital System========================
+============================================================
+
+
+#Users
+    1- Admin
+    2- Doctors
+    3- Patient
+    4- Employee
+
+#database tables
+    1- admin       ==>>  id , name , password
+        => CRUD doctor , pateint , field
+    2- doctor      ==>>  id , name , fieldsid(fk)   
+            - add   done
+            - read   done
+            - delete done
+            - update done
+    3- fields      ==>>  id , name
+        - add   done
+        - read   done
+        - delete done
+        - update done
+    4- patient     ==>>  id , name , doctorid(fk)
+        - add   done
+        - read   done
+        - delete done
+        - update done
+
+    5- employee    ==>>  id , name , departmentid(fk)
+    6- departments ==>>  id , name
+
+
+=================start with any project======================
+1- build database
+2- build design
+3- php functionality
+==============================================================
+4- authontecation   >> login  
+5- authorization    >> filte    r
+=============================================================
+
+6- import export databse
+
+=============================================================
+
+7- push github
+
+8- infinty
+
+
+
+
+
